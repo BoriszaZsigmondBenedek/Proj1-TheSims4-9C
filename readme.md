@@ -1,3 +1,2 @@
-https://github.com/BoriszaZsigmondBenedek/Proj1-TheSims4-9C
-@BoriszaZsigmondBenedek
-@kovacsannabella
+Ebben a projektben egy Sims 4 fanoldalt készítünk. A készítők név szerint Kovács Annabella és Borisza Zsigmond Benedek, a Jedlik Ányos Gépipari és Informatikai Technikum és Kollégium 9.c osztályos tanulói.
+A weboldal bemutatja a Sims 4-et alapszinten, és egy kvízzel megállapíthatjuk, hogy milyen szinten ismeri a játékot.
