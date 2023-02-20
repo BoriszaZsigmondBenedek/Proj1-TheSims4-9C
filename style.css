@@ -1,0 +1,6 @@
+.left {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(0, 255, 47));
+} 
+.right {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(36, 182, 62));
+} 
