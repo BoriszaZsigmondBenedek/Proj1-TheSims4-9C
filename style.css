@@ -10,3 +10,7 @@ text-align: center;
 .right {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #57cd36);
 } 
+.description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
