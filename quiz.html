@@ -13,6 +13,12 @@
       function darkmode() {
         var element = document.body;
         element.classList.toggle("darkmode");
+
+        if (!element.classList.contains("darkmode")) {
+          document.querySelector("#darkmode").innerText = "Sötét téma"
+        } else {
+          document.querySelector("#darkmode").innerText = "Világos téma"
+        }
       }
     </script>
   </head>
@@ -35,7 +41,7 @@
           <a class="nav-link active" href="quiz.html">Kvíz</a>
         </li>
       </ul>
-      <button onclick="darkmode()">Sötét téma</button>
+      <button id="darkmode" onclick="darkmode()">Sötét téma</button>
     </nav>
   </body>
 </html>
