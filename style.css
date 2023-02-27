@@ -1,3 +1,9 @@
+button {
+background-color: black;
+color: white;
+padding: 5px;
+text-align: center;
+}
 .left {
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #57cd36 );
 } 
