@@ -29,3 +29,16 @@ body {
   background-color: black;
   color: white;
 }
+
+img {
+  border-radius: 10px;
+  height: 200px;
+}
+
+p {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+}
