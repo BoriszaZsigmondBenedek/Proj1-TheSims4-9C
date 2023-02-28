@@ -14,10 +14,10 @@ button:hover {
 }
 
 .left {
-  background-image: linear-gradient(to left, rgb(255, 255, 255), #57cd36);
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #57cd36);
 }
 .right {
-  background-image: linear-gradient(to right, rgb(255, 255, 255), #57cd36);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #57cd36);
 }
 .description {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -27,4 +27,5 @@ body {
 }
 .darkmode {
   background-color: black;
+  color: white;
 }
