@@ -3,7 +3,16 @@ button {
   color: white;
   padding: 5px;
   text-align: center;
+  transform: translateY(0);
+  transition: all 0.2s;
+  border-radius: 5px;
+  border-color: #57cd36
 }
+
+button:hover {
+  transform: translateY(-3px);
+}
+
 .left {
   background-image: linear-gradient(to left, rgb(255, 255, 255), #57cd36);
 }
