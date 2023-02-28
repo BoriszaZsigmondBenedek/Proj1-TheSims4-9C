@@ -42,3 +42,16 @@ p {
   margin-bottom: auto;
   font-size: 20px;
 }
+
+p.kérdés {
+  font-size: 27px;
+  text-align: center
+}
+
+label.válasz {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  text-align: center;
+}
