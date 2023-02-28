@@ -1,19 +1,19 @@
 button {
-background-color: black;
-color: white;
-padding: 5px;
-text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
 }
 .left {
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #57cd36 );
-} 
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #57cd36);
+}
 .right {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #57cd36);
-} 
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #57cd36);
+}
 .description {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .card {
-     display:inline-block;
+  display: inline-block;
+  height: 300px;
 }
