@@ -46,6 +46,8 @@
       <button id="darkmode" onclick="darkmode()">Sötét téma</button>
     </nav>
 
+    <div style="margin-top: 90px;"></div>
+
     <div class="kvíz">
       <p class="kérdés">1.kérdés: Mikor adták ki először a Sims 4-et?</p> 
       <input type="radio" name="question1" id="question11"><label class="válasz" for="question11">2009</label> 
@@ -99,9 +101,9 @@
       <input type="radio" name="question10" id="correct10"><label class="válasz" for="correct10">Kitagadták a családból</label> 
     </div>
 
-    <div id="submit">
-      <input type="submit" name="submit" value="Kiértékelés" onclick="result()">
-      <button onclick="location.reload()">Újrakezdés</button>
+    <div id="quizbottom">
+      <button onclick="result()" id="submit">Kiértékelés</button>
+      <button onclick="location.reload()" id="restart">Újrakezdés</button>
     </div>
 
   </body>

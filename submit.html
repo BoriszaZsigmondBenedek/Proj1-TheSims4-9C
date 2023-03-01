@@ -51,8 +51,18 @@
 
     <script>var score = localStorage.getItem("score");
         var result = document.getElementById("result");
-        result.innerHTML = "your score is " +score;
+        result.innerHTML = "Az elért pontszámod: " +score;
     </script>
+
+    <div id="retry">
+      <button onclick="bacttoquiz()">Megpróbálom újra</button>
+    </div>
+
+  <script>
+    function bacttoquiz() {
+      open("quiz.html", "_self")
+    }
+  </script>
 
 
 
