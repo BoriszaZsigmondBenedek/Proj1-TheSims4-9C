@@ -23,10 +23,6 @@ button:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.card {
-  display: inline-block;
-  height: 300px;
-}
 body {
   background-color: white;
 }
