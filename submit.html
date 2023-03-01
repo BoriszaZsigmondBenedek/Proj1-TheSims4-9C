@@ -45,7 +45,16 @@
       <button id="darkmode" onclick="darkmode()">Sötét téma</button>
     </nav>
 
-    
+    <div id="result">
+
+    </div>
+
+    <script>var score = localStorage.getItem("score");
+        var result = document.getElementById("result");
+        result.innerHTML = "your score is " +score;
+    </script>
+
+
 
 </body>
 </html>

@@ -50,6 +50,8 @@
           score++;
         }
 
-        open("submit.html")
+        localStorage.setItem("score", score)
+
+        open("submit.html", "_self");
 
       }

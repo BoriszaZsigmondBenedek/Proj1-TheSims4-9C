@@ -71,6 +71,12 @@ div.kvíz {
   flex-direction: column;
 }
 
+#result {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 #submit {
   text-align: center;
 }
