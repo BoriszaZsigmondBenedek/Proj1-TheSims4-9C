@@ -71,6 +71,10 @@ div.kvíz {
   flex-direction: column;
 }
 
+#submit {
+  text-align: center;
+}
+
 input[type=submit] {
   background-color: #57cd36;
   color: white;
@@ -79,5 +83,7 @@ input[type=submit] {
   transform: translateY(0);
   transition: all 0.2s;
   border-radius: 5px;
-  border-color: #57cd36 
+  border-color: #57cd36;
+  margin-left: auto;
+  margin-right: auto;
 }

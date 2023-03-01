@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="kvíz.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       function darkmode() {
@@ -98,65 +99,7 @@
       <input type="radio" name="question10" id="correct10"><label class="válasz" for="correct10">Kitagadták a családból</label> 
     </div>
 
-    <input type="submit" name="submit" value="Kiértékelés" onclick="result()">
-
-    <script type="text/javascript">
-      function result() {
-        var score=0
-        if (document.getElementById('correct1').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct2').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct3').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct4').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct5').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct6').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct7').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct8').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct9').checked)
-        {
-          score++;
-        }
-
-        if (document.getElementById('correct10').checked)
-        {
-          score++;
-        }
-
-        document.write("Az elért pontszám:"+score)
-
-      }
-    </script>
+    <div id="submit"><input type="submit" name="submit" value="Kiértékelés" onclick="result()"></div>
 
   </body>
 </html>
