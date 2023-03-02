@@ -71,7 +71,7 @@ input[type="radio"] {
 
 input[type="radio"]:checked + label {
   color: #57cd36;
-  font-size: 25px;
+  font-weight: bold;
 }
 
 div.kvíz {
