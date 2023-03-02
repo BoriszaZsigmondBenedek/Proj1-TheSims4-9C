@@ -6,7 +6,7 @@ button {
   transform: translateY(0);
   transition: all 0.2s;
   border-radius: 5px;
-  border-color: #57cd36
+  border-color: #57cd36;
 }
 
 button:hover {
@@ -46,7 +46,7 @@ p {
 
 p.kérdés {
   font-size: 27px;
-  text-align: center
+  text-align: center;
 }
 
 label.válasz {
@@ -55,7 +55,7 @@ label.válasz {
   margin-bottom: 20px;
 }
 
-input[type=radio] {
+input[type="radio"] {
   text-align: center;
   display: inline-block;
   margin-left: auto;
@@ -65,7 +65,7 @@ input[type=radio] {
   width: 0px;
 }
 
-input[type=radio]:checked + label {
+input[type="radio"]:checked + label {
   color: #57cd36;
   font-size: 25px;
 }
@@ -85,7 +85,7 @@ div.kvíz {
   background-color: red;
 }
 
-#quizbottom  {
+#quizbottom {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -96,7 +96,7 @@ div.kvíz {
   margin-top: 30px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #57cd36;
   color: white;
   padding: 5px;
