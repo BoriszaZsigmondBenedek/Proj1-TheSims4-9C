@@ -120,8 +120,15 @@ input[type="submit"] {
   margin-right: auto;
   max-width: fit-content;
   min-height: fit-content;
+
 }
 
 #quizcard:hover {
   color: #57cd36;
+}
+
+.explanation {
+margin: auto;
+text-align: center;
+font-size: 15px;;
 }
