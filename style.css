@@ -27,9 +27,11 @@ button:hover {
   height: 300px;
   width: 80%;
 }
+
 body {
   background-color: white;
 }
+
 .darkmode {
   background-color: black;
   color: white;
@@ -119,9 +121,11 @@ input[type="submit"] {
   max-width: fit-content;
   min-height: fit-content;
   
+
 }
 .explanation {
 margin: auto;
 text-align: center;
 font-size: 15px;;
+
 }
