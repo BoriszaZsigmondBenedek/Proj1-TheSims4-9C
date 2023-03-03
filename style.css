@@ -121,4 +121,11 @@ input[type="submit"] {
   max-width: fit-content;
   min-height: fit-content;
   
+
+}
+.explanation {
+margin: auto;
+text-align: center;
+font-size: 15px;;
+
 }
