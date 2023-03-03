@@ -42,6 +42,13 @@ img {
   height: 200px;
 }
 
+img.kvizz {
+  min-height: fit-content;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p {
   margin-left: 30px;
   margin-right: 30px;
@@ -73,7 +80,7 @@ input[type="radio"] {
 
 input[type="radio"]:checked + label {
   color: #57cd36;
-  font-size: 25px;
+  font-weight: bold;
 }
 
 div.kvíz {
