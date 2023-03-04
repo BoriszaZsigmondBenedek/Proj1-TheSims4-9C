@@ -132,10 +132,14 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   padding: 5px;
+  margin-top: 50px;
 }
 .dlc-description {
   font-size: 23px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: auto;
+  vertical-align: middle;
   text-align: center;
+}
+table {
+  margin-top: 5%;
 }
