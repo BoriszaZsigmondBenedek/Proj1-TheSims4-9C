@@ -127,7 +127,6 @@ input[type="submit"] {
   margin-right: auto;
   max-width: fit-content;
   min-height: fit-content;
-
 }
 
 #quizcard:hover {
@@ -135,9 +134,26 @@ input[type="submit"] {
 }
 
 .explanation {
-margin: auto;
-text-align: center;
-font-size: 15px;;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+}
+h2 {
+  background-color: #57cd36;
+  font-family: serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+.dlc-description {
+  font-size: 23px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  vertical-align: middle;
+  text-align: center;
+}
+table {
+  margin-top: 5%;
 }
 
 div#karúzel {
