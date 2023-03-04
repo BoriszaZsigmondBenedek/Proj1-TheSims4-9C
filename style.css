@@ -139,3 +139,17 @@ margin: auto;
 text-align: center;
 font-size: 15px;;
 }
+
+div#karúzel {
+  width: fit-content;
+  height: fit-content;
+}
+
+img.w-100 {
+    min-width: 60%;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
