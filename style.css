@@ -127,7 +127,6 @@ input[type="submit"] {
   margin-right: auto;
   max-width: fit-content;
   min-height: fit-content;
-
 }
 
 #quizcard:hover {
@@ -135,9 +134,9 @@ input[type="submit"] {
 }
 
 .explanation {
-margin: auto;
-text-align: center;
-font-size: 15px;;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
 }
 
 div#karúzel {
@@ -146,10 +145,15 @@ div#karúzel {
 }
 
 img.w-100 {
-    min-width: 60%;
-    max-width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  min-width: 60%;
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.carousel-caption {
+  color: rgb(66, 66, 66);
+  text-shadow: #ffffff 0px 0px 3px;
+  -webkit-font-smoothing: antialiased;
 }
