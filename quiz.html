@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>The Sims 4 - Rajongói Oldal</title>
-    <link rel="icon" type="image/x-icon" href="Képek/favicon.png">
+    <link rel="icon" type="image/x-icon" href="Képek/favicon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,9 +17,9 @@
         element.classList.toggle("darkmode");
 
         if (!element.classList.contains("darkmode")) {
-          document.querySelector("#darkmode").innerText = "Sötét téma"
+          document.querySelector("#darkmode").innerText = "Sötét téma";
         } else {
-          document.querySelector("#darkmode").innerText = "Világos téma"
+          document.querySelector("#darkmode").innerText = "Világos téma";
         }
       }
     </script>
@@ -46,66 +46,247 @@
       <button id="darkmode" onclick="darkmode()">Sötét téma</button>
     </nav>
 
-    <div style="margin-top: 90px;"></div>
+    <div style="margin-top: 90px"></div>
 
     <div class="kvíz">
-      <p class="kérdés">1. kérdés: Mikor adták ki először a Sims 4-et?</p> 
-      <input type="radio" name="question1" id="question11"><label class="válasz" for="question11">2009</label> 
-      <input type="radio" name="question1" id="correct1"><label class="válasz" for="correct1">2014</label> 
-      <input type="radio" name="question1" id="question12"><label class="válasz" for="question12">2015</label> 
-      <input type="radio" name="question1" id="question13"><label class="válasz" for="question13">2002</label> 
-      <p class="kérdés">2. kérdés: Hogy hívják a nyelvet amit a simek beszélnek?</p>
-      <input type="radio" name="question2" id="question21"><label class="válasz" for="question21">Simese</label> 
-      <input type="radio" name="question2" id="question22"><label class="válasz" for="question22">Simian</label> 
-      <input type="radio" name="question2" id="question23"><label class="válasz" for="question23">Simoleon</label> 
-      <input type="radio" name="question2" id="correct2"><label class="válasz" for="correct2">Simlish</label> 
-      <p class="kérdés">3. kérdés: Jelenleg hány simed lehet egy háztartásban?</p>
-      <input type="radio" name="question3" id="correct3"><label class="válasz" for="correct3">8</label> 
-      <input type="radio" name="question3" id="question31"><label class="válasz" for="question31">10</label> 
-      <input type="radio" name="question3" id="question32"><label class="válasz" for="question32">4</label> 
-      <input type="radio" name="question3" id="question33"><label class="válasz" for="question33">12</label> 
+      <p class="kérdés">1. kérdés: Mikor adták ki először a Sims 4-et?</p>
+      <input type="radio" name="question1" id="question11" /><label
+        class="válasz"
+        for="question11"
+        >2009</label
+      >
+      <input type="radio" name="question1" id="correct1" /><label
+        class="válasz"
+        for="correct1"
+        >2014</label
+      >
+      <input type="radio" name="question1" id="question12" /><label
+        class="válasz"
+        for="question12"
+        >2015</label
+      >
+      <input type="radio" name="question1" id="question13" /><label
+        class="válasz"
+        for="question13"
+        >2002</label
+      >
+      <p class="kérdés">
+        2. kérdés: Hogy hívják a nyelvet amit a simek beszélnek?
+      </p>
+      <input type="radio" name="question2" id="question21" /><label
+        class="válasz"
+        for="question21"
+        >Simese</label
+      >
+      <input type="radio" name="question2" id="question22" /><label
+        class="válasz"
+        for="question22"
+        >Simian</label
+      >
+      <input type="radio" name="question2" id="question23" /><label
+        class="válasz"
+        for="question23"
+        >Simoleon</label
+      >
+      <input type="radio" name="question2" id="correct2" /><label
+        class="válasz"
+        for="correct2"
+        >Simlish</label
+      >
+      <p class="kérdés">
+        3. kérdés: Jelenleg hány simed lehet egy háztartásban?
+      </p>
+      <input type="radio" name="question3" id="correct3" /><label
+        class="válasz"
+        for="correct3"
+        >8</label
+      >
+      <input type="radio" name="question3" id="question31" /><label
+        class="válasz"
+        for="question31"
+        >10</label
+      >
+      <input type="radio" name="question3" id="question32" /><label
+        class="válasz"
+        for="question32"
+        >4</label
+      >
+      <input type="radio" name="question3" id="question33" /><label
+        class="válasz"
+        for="question33"
+        >12</label
+      >
       <p class="kérdés">4. kérdés: Hogy hívják a képen látható növényt?</p>
-      <img src="Képek/sims-4-cow-plant.jpg" alt="valami nem jó" class="kvizz">
-      <input type="radio" name="question4" id="correct4"><label class="válasz" for="correct4">Cowplant</label> 
-      <input type="radio" name="question4" id="question41"><label class="válasz" for="question41">Mooleaf</label> 
-      <input type="radio" name="question4" id="question42"><label class="válasz" for="question42">Cowtrap</label> 
-      <input type="radio" name="question4" id="question44"><label class="válasz" for="question44">Little Simzee</label> 
-      <p class="kérdés">5. kérdés: Hogy kerültek be a játékba a totyogók (toddlers)?</p>
-      <input type="radio" name="question5" id="question51"><label class="válasz" for="question51">Egy kiegészítő csomagban elérhetőek</label> 
-      <input type="radio" name="question5" id="question52"><label class="válasz" for="question52">Mod készült hozzá</label> 
-      <input type="radio" name="question5" id="question53"><label class="válasz" for="question53">Kiadás során már benne voltak</label> 
-      <input type="radio" name="question5" id="correct5"><label class="válasz" for="correct5">Egy frissítéssel jöttek</label> 
+      <img
+        src="Képek/sims-4-cow-plant.jpg"
+        alt="valami nem jó"
+        class="kvizz"
+        oncontextmenu="alert('Szép próbálkozás!');return false;"
+        ondragstart="alert('Ne csalj!');return false;"
+      />
+      <input type="radio" name="question4" id="correct4" /><label
+        class="válasz"
+        for="correct4"
+        >Cowplant</label
+      >
+      <input type="radio" name="question4" id="question41" /><label
+        class="válasz"
+        for="question41"
+        >Mooleaf</label
+      >
+      <input type="radio" name="question4" id="question42" /><label
+        class="válasz"
+        for="question42"
+        >Cowtrap</label
+      >
+      <input type="radio" name="question4" id="question44" /><label
+        class="válasz"
+        for="question44"
+        >Little Simzee</label
+      >
+      <p class="kérdés">
+        5. kérdés: Hogy kerültek be a játékba a totyogók (toddlers)?
+      </p>
+      <input type="radio" name="question5" id="question51" /><label
+        class="válasz"
+        for="question51"
+        >Egy kiegészítő csomagban elérhetőek</label
+      >
+      <input type="radio" name="question5" id="question52" /><label
+        class="válasz"
+        for="question52"
+        >Mod készült hozzá</label
+      >
+      <input type="radio" name="question5" id="question53" /><label
+        class="válasz"
+        for="question53"
+        >Kiadás során már benne voltak</label
+      >
+      <input type="radio" name="question5" id="correct5" /><label
+        class="válasz"
+        for="correct5"
+        >Egy frissítéssel jöttek</label
+      >
       <p class="kérdés">6. kérdés: Mi NEM kell ambróziasaláta készítéséhez?</p>
-      <input type="radio" name="question6" id="question61"><label class="válasz" for="question61">Death Flower</label> 
-      <input type="radio" name="question6" id="question62"><label class="válasz" for="question62">Angelfish</label> 
-      <input type="radio" name="question6" id="correct6"><label class="válasz" for="correct6">Potion of Health</label> 
-      <input type="radio" name="question6" id="question63"><label class="válasz" for="questin63">Potion of Youth</label> 
-      <p class="kérdés">7. kérdés: Melyik az a növény, amiből a legtöbb javunk lehet, ha eladjuk?</p>
-      <input type="radio" name="question7" id="correct7"><label class="válasz" for="correct7">Dragonfruit</label> 
-      <input type="radio" name="question7" id="question71"><label class="válasz" for="question71">Lily</label> 
-      <input type="radio" name="question7" id="question72"><label class="válasz" for="question72">Orchid</label> 
-      <input type="radio" name="question7" id="question73"><label class="válasz" for="question73">Blackberry</label> 
-      <p class="kérdés">8. kérdés: Hány kiegészítő csomaggal (expansion pack) újíthatjuk a játékélményt? (2023. február)</p>
-      <input type="radio" name="question8" id="question81"><label class="válasz" for="question81">18</label> 
-      <input type="radio" name="question8" id="correct8"><label class="válasz" for="correct8">12</label> 
-      <input type="radio" name="question8" id="question82"><label class="válasz" for="question82">13</label> 
-      <input type="radio" name="question8" id="question83"><label class="válasz" for="question83">34</label> 
-      <p class="kérdés">9. kérdés: Az adott képességek közül melyik NINCS az alap játékban?</p>
-      <input type="radio" name="question9" id="question91"><label class="válasz" for="question91">Gourmet Cooking</label> 
-      <input type="radio" name="question9" id="correct9"><label class="válasz" for="correct9">Singing</label> 
-      <input type="radio" name="question9" id="question92"><label class="válasz" for="question92">Rocket Science</label> 
-      <input type="radio" name="question9" id="question93"><label class="válasz" for="question93">Video Gaming</label> 
-      <p class="kérdés">10. kérdés: Mi köze Johnny Zest-nek a Landgraab családhoz?</p>
-      <input type="radio" name="question10" id="question101"><label class="válasz" for="question101">Nancy és Geoffrey fia</label> 
-      <input type="radio" name="question10" id="question102"><label class="válasz" for="question102">Malcolm unokatestvére</label> 
-      <input type="radio" name="question10" id="question103"><label class="válasz" for="question103">Semmi</label> 
-      <input type="radio" name="question10" id="correct10"><label class="válasz" for="correct10">Kitagadták a családból</label> 
+      <input type="radio" name="question6" id="question61" /><label
+        class="válasz"
+        for="question61"
+        >Death Flower</label
+      >
+      <input type="radio" name="question6" id="question62" /><label
+        class="válasz"
+        for="question62"
+        >Angelfish</label
+      >
+      <input type="radio" name="question6" id="correct6" /><label
+        class="válasz"
+        for="correct6"
+        >Potion of Health</label
+      >
+      <input type="radio" name="question6" id="question63" /><label
+        class="válasz"
+        for="questin63"
+        >Potion of Youth</label
+      >
+      <p class="kérdés">
+        7. kérdés: Melyik az a növény, amiből a legtöbb javunk lehet, ha
+        eladjuk?
+      </p>
+      <input type="radio" name="question7" id="correct7" /><label
+        class="válasz"
+        for="correct7"
+        >Dragonfruit</label
+      >
+      <input type="radio" name="question7" id="question71" /><label
+        class="válasz"
+        for="question71"
+        >Lily</label
+      >
+      <input type="radio" name="question7" id="question72" /><label
+        class="válasz"
+        for="question72"
+        >Orchid</label
+      >
+      <input type="radio" name="question7" id="question73" /><label
+        class="válasz"
+        for="question73"
+        >Blackberry</label
+      >
+      <p class="kérdés">
+        8. kérdés: Hány kiegészítő csomaggal (expansion pack) újíthatjuk a
+        játékélményt? (2023. február)
+      </p>
+      <input type="radio" name="question8" id="question81" /><label
+        class="válasz"
+        for="question81"
+        >18</label
+      >
+      <input type="radio" name="question8" id="correct8" /><label
+        class="válasz"
+        for="correct8"
+        >12</label
+      >
+      <input type="radio" name="question8" id="question82" /><label
+        class="válasz"
+        for="question82"
+        >13</label
+      >
+      <input type="radio" name="question8" id="question83" /><label
+        class="válasz"
+        for="question83"
+        >34</label
+      >
+      <p class="kérdés">
+        9. kérdés: Az adott képességek közül melyik NINCS az alap játékban?
+      </p>
+      <input type="radio" name="question9" id="question91" /><label
+        class="válasz"
+        for="question91"
+        >Gourmet Cooking</label
+      >
+      <input type="radio" name="question9" id="correct9" /><label
+        class="válasz"
+        for="correct9"
+        >Singing</label
+      >
+      <input type="radio" name="question9" id="question92" /><label
+        class="válasz"
+        for="question92"
+        >Rocket Science</label
+      >
+      <input type="radio" name="question9" id="question93" /><label
+        class="válasz"
+        for="question93"
+        >Video Gaming</label
+      >
+      <p class="kérdés">
+        10. kérdés: Mi köze Johnny Zest-nek a Landgraab családhoz?
+      </p>
+      <input type="radio" name="question10" id="question101" /><label
+        class="válasz"
+        for="question101"
+        >Nancy és Geoffrey fia</label
+      >
+      <input type="radio" name="question10" id="question102" /><label
+        class="válasz"
+        for="question102"
+        >Malcolm unokatestvére</label
+      >
+      <input type="radio" name="question10" id="question103" /><label
+        class="válasz"
+        for="question103"
+        >Semmi</label
+      >
+      <input type="radio" name="question10" id="correct10" /><label
+        class="válasz"
+        for="correct10"
+        >Kitagadták a családból</label
+      >
     </div>
 
     <div id="quizbottom">
       <button onclick="result()" id="submit">Kiértékelés</button>
       <button onclick="location.reload()" id="restart">Újrakezdés</button>
     </div>
-
   </body>
 </html>
