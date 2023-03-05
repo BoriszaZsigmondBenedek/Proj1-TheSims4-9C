@@ -26,6 +26,7 @@ button:hover {
 .img-height {
   height: 300px;
   width: fit-content;
+  margin: 0px 20px 30px 20px;
 }
 
 body {
