@@ -45,7 +45,7 @@ img {
   height: 200px;
 }
 
-img.kvizz {
+img.quiz {
   min-height: fit-content;
   max-width: fit-content;
   margin-left: auto;
@@ -60,12 +60,12 @@ p {
   font-size: 20px;
 }
 
-p.kérdés {
+p.question {
   font-size: 27px;
   text-align: center;
 }
 
-label.válasz {
+label.answer {
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
@@ -86,7 +86,7 @@ input[type="radio"]:checked + label {
   font-weight: bold;
 }
 
-div.kvíz {
+div.quizz {
   display: flex;
   flex-direction: column;
   -webkit-user-select: none;
@@ -164,7 +164,7 @@ table {
   margin-top: 5%;
 }
 
-div#karúzel {
+div#carousel0 {
   width: fit-content;
   height: fit-content;
 }
