@@ -16,9 +16,11 @@ button:hover {
 .left {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #57cd36);
 }
+
 .right {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #57cd36);
 }
+
 .description {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -137,6 +139,7 @@ input[type="submit"] {
   margin: auto;
   text-align: center;
   font-size: 15px;
+  
 }
 h2 {
   background-color: #57cd36;
@@ -146,12 +149,14 @@ h2 {
   padding: 5px;
   margin-top: 50px;
 }
+
 .dlc-description {
   font-size: 23px;
   font-family: Georgia, "Times New Roman", Times, serif;
   vertical-align: middle;
   text-align: center;
 }
+
 table {
   margin-top: 5%;
 }
@@ -162,10 +167,16 @@ div#karúzel {
 }
 
 img.w-100 {
-    min-width: 60%;
-    max-width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  min-width: 60%;
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.carousel-caption {
+  color: rgb(66, 66, 66);
+  text-shadow: #ffffff 0px 0px 3px;
+  -webkit-font-smoothing: antialiased;
 }
