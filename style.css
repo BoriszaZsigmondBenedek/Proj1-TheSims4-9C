@@ -24,6 +24,7 @@ button:hover {
 
 .description {
   font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
 }
 
 .img-height {
@@ -199,3 +200,26 @@ img.w-100 {
   text-shadow: #ffffff 0px 0px 3px;
   -webkit-font-smoothing: antialiased;
 }
+
+.card-body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card-title {
+  color: black;
+}
+
+.quizlink {
+  width: fit-content;
+  height: fit-content;
+  margin: 50px 50px;
+  text-align: center;
+  border-radius: 15px;
+  border: 5px solid #57cd36;
+}
+
+.homepage {
+  display: inline; object-fit: contain
+}
+
+
