@@ -115,6 +115,10 @@ div.quizz {
   margin-top: 30px;
 }
 
+#válasz {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 input[type="submit"] {
   background-color: #57cd36;
   color: white;
