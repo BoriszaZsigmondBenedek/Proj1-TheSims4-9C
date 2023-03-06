@@ -173,7 +173,9 @@ input[type="submit"] {
   margin: auto;
   text-align: center;
   font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 h2 {
   background-color: #57cd36;
   font-family: serif;
@@ -219,6 +221,8 @@ img.w-100 {
   color: rgb(66, 66, 66);
   text-shadow: #ffffff 0px 0px 3px;
   -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .card-body {
@@ -246,4 +250,8 @@ img.w-100 {
 h1.align {
   text-align: center;
   margin-top: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+table {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
