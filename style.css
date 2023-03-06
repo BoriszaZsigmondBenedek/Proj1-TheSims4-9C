@@ -119,6 +119,10 @@ div.quizz {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+#navbar-item {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 input[type="submit"] {
   background-color: #57cd36;
   color: white;
