@@ -7,6 +7,7 @@ button {
   transition: all 0.2s;
   border-radius: 5px;
   border-color: #57cd36;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 button:hover {
@@ -23,6 +24,15 @@ button:hover {
 
 .description {
   font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+}
+
+.empty {
+  padding-top: 50px;
+}
+
+.empty-top {
+  padding-top: 90px;
 }
 
 .img-height {
@@ -60,15 +70,29 @@ p {
   font-size: 20px;
 }
 
+p.index {
+  flex-grow: 2;
+}
+
+p.build {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 5px solid #57cd36;
+  border-radius: 35px;
+}
+
 p.question {
   font-size: 27px;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 label.answer {
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 input[type="radio"] {
@@ -116,12 +140,9 @@ div.quizz {
   margin-top: 30px;
 }
 
-#válasz {
+.nav-item {
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-#navbar-item {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase !important;
 }
 
 input[type="submit"] {
@@ -152,7 +173,9 @@ input[type="submit"] {
   margin: auto;
   text-align: center;
   font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 h2 {
   background-color: #57cd36;
   font-family: serif;
@@ -198,4 +221,37 @@ img.w-100 {
   color: rgb(66, 66, 66);
   text-shadow: #ffffff 0px 0px 3px;
   -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card-body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card-title {
+  color: black;
+}
+
+.quizlink {
+  width: fit-content;
+  height: fit-content;
+  margin: 50px 50px;
+  text-align: center;
+  border-radius: 15px;
+  border: 5px solid #57cd36;
+}
+
+.homepage {
+  display: inline;
+  object-fit: contain;
+}
+
+h1.align {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+table {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
