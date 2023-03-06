@@ -31,6 +31,10 @@ button:hover {
   padding-top: 50px;
 }
 
+.empty-top {
+  padding-top: 90px;
+}
+
 .img-height {
   height: 300px;
   width: fit-content;
@@ -64,6 +68,18 @@ p {
   margin-top: auto;
   margin-bottom: auto;
   font-size: 20px;
+}
+
+p.index {
+  flex-grow: 2;
+}
+
+p.build {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 5px solid #57cd36;
+  border-radius: 35px;
 }
 
 p.question {
@@ -223,7 +239,11 @@ img.w-100 {
 }
 
 .homepage {
-  display: inline; object-fit: contain
+  display: inline;
+  object-fit: contain;
 }
 
-
+h1.align {
+  text-align: center;
+  margin-top: 40px;
+}
