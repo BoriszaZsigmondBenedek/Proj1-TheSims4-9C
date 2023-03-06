@@ -7,6 +7,7 @@ button {
   transition: all 0.2s;
   border-radius: 5px;
   border-color: #57cd36;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 button:hover {
@@ -120,6 +121,7 @@ div.quizz {
 
 .nav-item {
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase !important;
 }
 
 input[type="submit"] {
